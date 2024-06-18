@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
-from .models import Meme
-from .schemas import meme as schemas
+
+from memes.models import Meme
+from memes import schemas
 
 def get_meme(db: Session, meme_id: int):
     return db.query(Meme).filter(Meme.id == meme_id).first()

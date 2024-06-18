@@ -3,8 +3,10 @@ from sqlalchemy.orm import Session
 from typing import List
 from uuid import uuid4
 
-import schemas
-import crud
+# import schemas
+# import crud
+from memes import schemas
+from memes import crud
 from core.database import get_db
 from core.s3 import upload_file_to_s3
 from core.config import settings

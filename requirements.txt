@@ -1,9 +1,10 @@
-fastapi
-uvicorn
-sqlalchemy
 alembic
-psycopg2-binary
-pydantic
 boto3
+fastapi
+pydantic
+pydantic-settings
+psycopg2-binary
 pytest
 python-multipart
+sqlalchemy
+uvicorn

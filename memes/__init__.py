@@ -1,5 +1,6 @@
 from fastapi import APIRouter
-from routers import router
+
+from memes.routers import router
 
 
 api_router = APIRouter()

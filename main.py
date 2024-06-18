@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from core.config import settings
 from core.database import engine, Base
-from api import router as api_router
+from memes import router as api_router
 
 
 Base.metadata.create_all(bind=engine)
