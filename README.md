@@ -24,8 +24,8 @@
 1. Клонируйте репозиторий:
 
     ```sh
-    git clone https://your-repo-url.git
-    cd memes-app
+    git clone git@github.com:MBakushin/MemesCollection.git
+    cd MemesCollection
     ```
 
 2. Создайте файл `.env` и добавьте следующие переменные:
@@ -48,3 +48,4 @@
 
 После запуска приложения, документация API будет доступна по адресу:
 
+http://localhost:8000/docs
